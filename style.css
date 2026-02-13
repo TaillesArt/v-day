@@ -85,6 +85,23 @@ h1 {
     transition: opacity 0.3s ease;
 }
 
+
+#tease-toast {
+    margin-top: 14px;
+    font-size: 1rem;
+    color: #d63384;
+    font-weight: 700;
+    font-style: italic;
+    opacity: 0;
+    transform: translateY(6px);
+    transition: opacity 0.3s ease, transform 0.3s ease;
+    min-height: 1.5rem;
+}
+
+#tease-toast.show {
+    opacity: 1;
+    transform: translateY(0);
+}
 .buttons {
     display: flex;
     gap: 20px;
@@ -134,24 +151,6 @@ h1 {
 
 #no-btn:hover {
     background: linear-gradient(135deg, #c0392b, #a93226);
-}
-
-
-#tease-toast {
-    margin-top: 14px;
-    font-size: 1rem;
-    color: #d63384;
-    font-weight: 700;
-    font-style: italic;
-    opacity: 0;
-    transform: translateY(6px);
-    transition: opacity 0.3s ease, transform 0.3s ease;
-    min-height: 1.5rem;
-}
-
-#tease-toast.show {
-    opacity: 1;
-    transform: translateY(0);
 }
 
 /* Music toggle button */
