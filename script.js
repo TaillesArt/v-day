@@ -31,6 +31,7 @@ const yesTeasePokes = [
 let yesTeasedCount = 0
 
 let noClickCount = 0
+let yesClickCount = 0
 let runawayEnabled = false
 let musicPlaying = true
 
@@ -66,11 +67,15 @@ function toggleMusic() {
 }
 
 function handleYesClick() {
-    if (!runawayEnabled) {
+    yesClickCount++;
+    if (yesClickCount < 7) {
         // Tease her to try No first
         const msg = yesTeasePokes[Math.min(yesTeasedCount, yesTeasePokes.length - 1)]
         yesTeasedCount++
-        showTeaseMessage(msg)
+        showTeaseMessage(msg) }
+        
+    const msg = texts[yesClickCount - 1] "Ja klar!"
+        
         return
     }
     window.location.href = 'yes.html'
