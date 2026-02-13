@@ -1,4 +1,4 @@
-sconst gifStages = [
+const gifStages = [
     "https://cdn.pixabay.com/animation/2025/05/05/22/29/22-29-42-464_512.gif",    // 0 normal
     "https://cdn.pixabay.com/animation/2023/10/10/13/25/13-25-40-109_512.gif",  // 1 confused
     "https://cdn.pixabay.com/animation/2025/01/27/22/35/22-35-50-210_512.gif",             // 2 pleading
