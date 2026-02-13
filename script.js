@@ -1,12 +1,12 @@
 const gifStages = [
-    "https://cdn.pixabay.com/animation/2025/05/05/22/29/22-29-42-464_512.gif",    // 0 normal
+    "https://media.giphy.com/media/v1.Y2lkPWVjZjA1ZTQ3a3g2Njhrd3Nseml4aXVubG91c3F5eWd6eHB6MzVyN3Z3b2x3a2E3dSZlcD12MV9naWZzX3NlYXJjaCZjdD1n/wMXSYpRrnK2dvM0Tyj/giphy.gif",    // 0 normal
     "https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExaTlidXNlZ2JicnB3YTg0c29wN3BydndjcmU5ejg5OHQ2dDU1NWQycyZlcD12MV9naWZzX3NlYXJjaCZjdD1n/5XRB3Ay93FZw4/giphy.gif",  // 1 confused
     "https://media2.giphy.com/media/v1.Y2lkPTc5MGI3NjExanNqYmM4NWoxd2l1bzh6ZTRwOWhpYWtuaHF0M3kya2lxem9laDZ0byZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/HTjuQryixrSZB1uA3Z/giphy.gif",             // 2 pleading
     "https://media.giphy.com/media/v1.Y2lkPWVjZjA1ZTQ3a2J4ajRjMmYyMG5ld296N2FzZ2VveWlvMjZ1b2F4ZGEwbXB6ZjM0NCZlcD12MV9naWZzX3NlYXJjaCZjdD1n/p1b9zNAQzlhrTtAOJ5/giphy.gif",             // 3 sad
     "https://media.giphy.com/media/v1.Y2lkPWVjZjA1ZTQ3ZHFpeTdtcjV0bHU0Znc2YnhjMGl0Z3ZzaDRyZ3E3aHNqa3owZzZpNiZlcD12MV9naWZzX3NlYXJjaCZjdD1n/j0qSbeNFuzjhXKFVSP/giphy.gif",       // 4 sadder
     "https://media.giphy.com/media/v1.Y2lkPWVjZjA1ZTQ3YXRid21mY2F5ZGdjOG5wbWtqeDJjZXdxejB5NzJkZXdqem5pZXJxciZlcD12MV9naWZzX3NlYXJjaCZjdD1n/rdKs1wbHapaQ8/giphy.gif",             // 5 weinendes Lama
     "https://media.giphy.com/media/v1.Y2lkPWVjZjA1ZTQ3cDB1eTdyMGJjYjVneDZyancxZmlpcGc1bTQ3dDhkZmg2a3JvdDV6ciZlcD12MV9naWZzX3NlYXJjaCZjdD1n/b8dC9xhIw1VPsnxmCt/giphy.gif",               // 6 Weinen im Regen
-    "https://cdn.pixabay.com/animation/2025/09/29/07/50/07-50-50-70_512.gif"  // 7 Herz zerbricht
+    "https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExdnNveHBhYXRmYm5mdHcwam1nNHlkNGRwNTNjcnRldmhlbWFvcmpiaSZlcD12MV9naWZzX3NlYXJjaCZjdD1n/fb5lozVxhBwVFFByW8/giphy.gif"  // 7 Herz zerbricht
 ]
 
 const noMessages = [
