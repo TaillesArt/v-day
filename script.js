@@ -1,12 +1,12 @@
 sconst gifStages = [
-    "https://media.tenor.com/EBV7OT7ACfwAAAAj/u-u-qua-qua-u-quaa.gif",    // 0 normal
-    "https://media1.tenor.com/m/uDugCXK4vI4AAAAd/chiikawa-hachiware.gif",  // 1 confused
-    "https://media.tenor.com/f_rkpJbH1s8AAAAj/somsom1012.gif",             // 2 pleading
-    "https://media.tenor.com/OGY9zdREsVAAAAAj/somsom1012.gif",             // 3 sad
-    "https://media1.tenor.com/m/WGfra-Y_Ke0AAAAd/chiikawa-sad.gif",       // 4 sadder
-    "https://media.tenor.com/CivArbX7NzQAAAAj/somsom1012.gif",             // 5 devastated
-    "https://media.tenor.com/5_tv1HquZlcAAAAj/chiikawa.gif",               // 6 very devastated
-    "https://media1.tenor.com/m/uDugCXK4vI4AAAAC/chiikawa-hachiware.gif"  // 7 crying runaway
+    "https://cdn.pixabay.com/animation/2025/05/05/22/29/22-29-42-464_512.gif",    // 0 normal
+    "https://cdn.pixabay.com/animation/2023/10/10/13/25/13-25-40-109_512.gif",  // 1 confused
+    "https://cdn.pixabay.com/animation/2025/01/27/22/35/22-35-50-210_512.gif",             // 2 pleading
+    "https://cdn.pixabay.com/animation/2024/01/14/13/01/13-01-57-167_512.gif",             // 3 sad
+    "https://cdn.pixabay.com/animation/2022/10/21/06/39/06-39-15-780_512.gif",       // 4 sadder
+    "https://cdn.pixabay.com/animation/2024/07/10/23/54/23-54-54-987_512.gif",             // 5 devastated
+    "https://cdn.pixabay.com/animation/2024/12/20/20/38/20-38-56-777_512.gif",               // 6 very devastated
+    "https://cdn.pixabay.com/animation/2025/09/29/07/50/07-50-50-70_512.gif"  // 7 crying runaway
 ]
 
 const noMessages = [
