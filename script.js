@@ -66,19 +66,33 @@ function toggleMusic() {
     }
 }
 
+
 function handleYesClick() {
     yesClickCount++;
+
+    // Solange wir noch nicht beim 7. Klick sind:
     if (yesClickCount < 7) {
-        // Tease her to try No first
-        const msg = yesTeasePokes[Math.min(yesTeasedCount, yesTeasePokes.length - 1)]
-        yesTeasedCount++
-        showTeaseMessage(msg) }
+        // Nachricht aus deiner existierenden Liste holen
+        // Das % Zeichen sorgt dafür, dass die Liste von vorne anfängt, falls sie kürzer als 7 Einträge ist
+        const msg = yesTeasePokes[(yesClickCount - 1) % yesTeasePokes.length];
         
-    const msg = texts[yesClickCount - 1] "Ja klar!"
-        
-        return
+        showTeaseMessage(msg);
+
+        // Optional: Button wackeln lassen (Nein-Geste)
+        const btn = document.getElementById('yes-btn');
+        btn.classList.add('shake');
+        setTimeout(() => btn.classList.remove('shake'), 500);
+
+        return; // HIER IST STOPP -> Keine Weiterleitung
     }
-    window.location.href = 'yes.html'
+
+    // Ab dem 7. Klick passiert das hier:
+    showTeaseMessage("Ja klar! 🎉"); // Dein gewünschter Text
+
+    // Kleine Pause (800ms), damit man "Ja klar!" lesen kann, dann ab zur Zielseite
+    setTimeout(() => {
+        window.location.href = 'yes.html';
+    }, 800);
 }
 
 function showTeaseMessage(msg) {
