@@ -3,10 +3,10 @@ const gifStages = [
     "https://cdn.pixabay.com/animation/2023/10/10/13/25/13-25-40-109_512.gif",  // 1 confused
     "https://media2.giphy.com/media/v1.Y2lkPTc5MGI3NjExanNqYmM4NWoxd2l1bzh6ZTRwOWhpYWtuaHF0M3kya2lxem9laDZ0byZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/HTjuQryixrSZB1uA3Z/giphy.gif",             // 2 pleading
     "https://media.giphy.com/media/v1.Y2lkPWVjZjA1ZTQ3a2J4ajRjMmYyMG5ld296N2FzZ2VveWlvMjZ1b2F4ZGEwbXB6ZjM0NCZlcD12MV9naWZzX3NlYXJjaCZjdD1n/p1b9zNAQzlhrTtAOJ5/giphy.gif",             // 3 sad
-    "https://cdn.pixabay.com/animation/2022/10/21/06/39/06-39-15-780_512.gif",       // 4 sadder
-    "https://cdn.pixabay.com/animation/2024/07/10/23/54/23-54-54-987_512.gif",             // 5 devastated
-    "https://cdn.pixabay.com/animation/2024/12/20/20/38/20-38-56-777_512.gif",               // 6 very devastated
-    "https://cdn.pixabay.com/animation/2025/09/29/07/50/07-50-50-70_512.gif"  // 7 crying runaway
+    "https://media.giphy.com/media/v1.Y2lkPWVjZjA1ZTQ3ZHFpeTdtcjV0bHU0Znc2YnhjMGl0Z3ZzaDRyZ3E3aHNqa3owZzZpNiZlcD12MV9naWZzX3NlYXJjaCZjdD1n/j0qSbeNFuzjhXKFVSP/giphy.gif",       // 4 sadder
+    "https://media.giphy.com/media/v1.Y2lkPWVjZjA1ZTQ3YXRid21mY2F5ZGdjOG5wbWtqeDJjZXdxejB5NzJkZXdqem5pZXJxciZlcD12MV9naWZzX3NlYXJjaCZjdD1n/rdKs1wbHapaQ8/giphy.gif",             // 5 weinendes Lama
+    "https://media.giphy.com/media/v1.Y2lkPWVjZjA1ZTQ3cDB1eTdyMGJjYjVneDZyancxZmlpcGc1bTQ3dDhkZmg2a3JvdDV6ciZlcD12MV9naWZzX3NlYXJjaCZjdD1n/b8dC9xhIw1VPsnxmCt/giphy.gif",               // 6 Weinen im Regen
+    "https://cdn.pixabay.com/animation/2025/09/29/07/50/07-50-50-70_512.gif"  // 7 Herz zerbricht
 ]
 
 const noMessages = [
