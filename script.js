@@ -1,8 +1,8 @@
 const gifStages = [
     "https://cdn.pixabay.com/animation/2025/05/05/22/29/22-29-42-464_512.gif",    // 0 normal
     "https://cdn.pixabay.com/animation/2023/10/10/13/25/13-25-40-109_512.gif",  // 1 confused
-    "https://cdn.pixabay.com/animation/2025/01/27/22/35/22-35-50-210_512.gif",             // 2 pleading
-    "https://cdn.pixabay.com/animation/2024/01/14/13/01/13-01-57-167_512.gif",             // 3 sad
+    "https://media2.giphy.com/media/v1.Y2lkPTc5MGI3NjExanNqYmM4NWoxd2l1bzh6ZTRwOWhpYWtuaHF0M3kya2lxem9laDZ0byZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/HTjuQryixrSZB1uA3Z/giphy.gif",             // 2 pleading
+    "https://media.giphy.com/media/v1.Y2lkPWVjZjA1ZTQ3a2J4ajRjMmYyMG5ld296N2FzZ2VveWlvMjZ1b2F4ZGEwbXB6ZjM0NCZlcD12MV9naWZzX3NlYXJjaCZjdD1n/p1b9zNAQzlhrTtAOJ5/giphy.gif",             // 3 sad
     "https://cdn.pixabay.com/animation/2022/10/21/06/39/06-39-15-780_512.gif",       // 4 sadder
     "https://cdn.pixabay.com/animation/2024/07/10/23/54/23-54-54-987_512.gif",             // 5 devastated
     "https://cdn.pixabay.com/animation/2024/12/20/20/38/20-38-56-777_512.gif",               // 6 very devastated
@@ -11,8 +11,8 @@ const gifStages = [
 
 const noMessages = [
     "Nein",
-    "Freust du dich? 🤔",
-    "Steeeefaaaan... 🥺",
+    "Würdest du dich nicht freuen? 🤔",
+    "Was?! Steeeefaaaan... 🥺",
     "Wenn du nein sagst, dann bin ich schon enttäuscht...",
     "Ich wäre wirklich sehr traurig... 😢",
     "Bitteeeeeeee??? 💔",
